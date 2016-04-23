@@ -4,7 +4,7 @@
  * @author tobbe
  * @version 2016.04.23
  */
-public class trik {
+public class Trik {
 
     public static void main(String[] args) {
         Kattio io = new Kattio(System.in, System.out);
