@@ -18,14 +18,20 @@ public class trik {
                     temp = cups[0];
                     cups[0] = cups[1];
                     cups[1] = temp;
+                    break;
+
                 case "B":
                     temp = cups[1];
                     cups[1] = cups[2];
                     cups[2] = temp;
+                    break;
+
                 case "C":
                     temp = cups[0];
                     cups[0] = cups[2];
                     cups[2] = temp;
+                    break;
+
             }
         }
         for (int i = 0; i < 3; i++) {
